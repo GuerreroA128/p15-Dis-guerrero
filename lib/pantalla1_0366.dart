@@ -7,21 +7,22 @@ class Pantalla1_0366 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            title: Text("Card P1 Guerrero0366"),
-            backgroundColor: Colors.cyanAccent),
-        body: Center(
-          child: Card(
-            shape:
-                RoundedRectangleBorder(borderRadius: BorderRadius.circular(30)),
-            elevation: 10,
-            shadowColor: Color(0xff0026ff),
-            color: Colors.cyan,
-            child: Padding(
-                padding: EdgeInsets.all(16),
-                child: Text("Card Guerrero0366",
-                    style: TextStyle(fontSize: 30, color: Color(0xffffffff)))),
-          ),
-        ));
+      appBar: AppBar(
+          title: Text("Container P1 Guerrero0366",
+              style: TextStyle(color: Color(0xff000000))),
+          backgroundColor: Colors.cyanAccent),
+      body: Center(
+        child: Container(
+          color: Color(0xff0050ff),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text("Contenedor Guerrero0366",
+              style: TextStyle(fontSize: 30, color: Color(0xffffffff))),
+        ),
+      ),
+    );
   }
 }

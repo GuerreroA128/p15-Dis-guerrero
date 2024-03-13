@@ -8,7 +8,8 @@ class PantallaInicial_0366 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Card container Guerrero0366"),
+        title: Text("container Guerrero0366",
+            style: TextStyle(color: Color(0xff000000))),
         backgroundColor: Colors.cyanAccent,
       ),
       body: Center(
@@ -16,16 +17,31 @@ class PantallaInicial_0366 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff0050ff)),
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1_0366");
               },
-              child: Text("Ir A Pantalla 1"),
+              child: Text("Ir a pantalla 1",
+                  style: TextStyle(fontSize: 20, color: Color(0xffffffff))),
             ),
             ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff0050ff)),
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0366");
               },
-              child: Text("Ir A Pantalla 2"),
+              child: Text("Ir a pantalla 2",
+                  style: TextStyle(fontSize: 20, color: Color(0xffffffff))),
+            ),
+            ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff0050ff)),
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla3_0366");
+              },
+              child: Text("Ir a pantalla 3",
+                  style: TextStyle(fontSize: 20, color: Color(0xffffffff))),
             )
           ],
         ),

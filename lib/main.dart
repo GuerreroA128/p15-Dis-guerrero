@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:guerrero0366/pantalla3_0366.dart';
 import 'package:guerrero0366/pantalla2_0366.dart';
 import 'package:guerrero0366/pantalla1_0366.dart';
 import 'package:guerrero0366/pantallainicial_0366.dart';
@@ -17,6 +18,7 @@ class MiApp0366 extends StatelessWidget {
         "/": (context) => PantallaInicial_0366(),
         "/pantalla1_0366": (context) => Pantalla1_0366(),
         "/pantalla2_0366": (context) => Pantalla2_0366(),
+        "/pantalla3_0366": (context) => Pantalla3_0366(),
       }, //Rutas de Paginas
     );
   } //fin widget
